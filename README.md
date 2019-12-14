@@ -38,11 +38,8 @@ and
 - [x] Prioritize images.
 - [x] Preload images.
 - [x] GIF support.
-<<<<<<< HEAD
 - [x] Border radius property.
-=======
 - [x] borderRadius support.
->>>>>>> upstreampr/master
 
 ## Usage
 
@@ -53,7 +50,7 @@ react-native link
 
 ```js
 
-import FastImage from 'react-native-fast-image'
+import FastImage from 'react-native-fast-image-blurhash'
 
 const YourImage = () =>
   <FastImage

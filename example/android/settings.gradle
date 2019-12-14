@@ -1,8 +1,4 @@
 rootProject.name = 'example'
-include ':react-native-letote-fast-image'
-project(':react-native-letote-fast-image').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-letote-fast-image/android')
-include ':react-native-vector-icons'
-project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
-include ':react-native-cookies'
-project(':react-native-cookies').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-cookies/android')
+include ':react-native-fast-image-blurhash'
+project(':react-native-fast-image-blurhash').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fast-image-blurhash/android')
 include ':app'

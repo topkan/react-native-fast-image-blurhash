@@ -8,11 +8,11 @@
 	},
 	"dependencies": {
 		"react": "16.0.0",
-		"react-native": "0.52.0",
-		"react-native-cookies": "^3.2.0",
-		"react-native-letote-fast-image": "file:../react-native-letote-fast-image-1.0.8.tgz",
-		"react-native-vector-icons": "^4.5.0",
-		"react-navigation": "^1.0.0-beta.21",
+		"react-native": "0.61.2",
+		"react-native-cookies": "^3.3.0",
+		"react-native-fast-image-blurhash": "file:../",
+		"react-native-vector-icons": "^6.6.0",
+		"react-navigation": "^4.0.10",
 		"react-timeout": "^1.0.1",
 		"uuid": "^3.1.0"
 	},

@@ -1,7 +1,7 @@
 // @flow
 import React from 'react'
 import { Image } from 'react-native'
-import Icon from 'react-native-vector-icons/Ionicons'
+// import Icon from 'react-native-vector-icons/Ionicons'
 import ImageGrid from './ImageGrid'
 
 const DefaultImageGrid = () => <ImageGrid ImageComponent={Image} />

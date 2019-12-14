@@ -137,9 +137,7 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-letote-fast-image')
-    compile project(':react-native-vector-icons')
-    compile project(':react-native-cookies')
+    compile project(':react-native-fast-image-blurhash')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:26.0.2"
     compile "com.facebook.react:react-native:+"  // From node_modules

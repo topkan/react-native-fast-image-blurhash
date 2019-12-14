@@ -8,8 +8,7 @@ import {
   Text,
   View
 } from 'react-native'
-import Icon from 'react-native-vector-icons/Ionicons'
-import FastImage from 'react-native-letote-fast-image'
+import FastImage from 'react-native-fast-image-blurhash'
 import uuid from 'uuid/v4'
 
 const getImageUrl = (id, width, height) =>

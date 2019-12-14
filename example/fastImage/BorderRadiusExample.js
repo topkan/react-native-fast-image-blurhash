@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleSheet, View } from 'react-native'
 import withCacheBust from './withCacheBust'
 import SectionFlex from './SectionFlex'
-import FastImage from 'react-native-letote-fast-image'
+import FastImage from 'react-native-fast-image-blurhash'
 import Section from './Section'
 import FeatureText from './FeatureText'
 
