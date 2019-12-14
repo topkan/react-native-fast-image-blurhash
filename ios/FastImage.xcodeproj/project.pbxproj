@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E65905F223A5415D005298C2 /* BlurHashDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65905EC23A5415D005298C2 /* BlurHashDecode.swift */; };
 		FC0BC2421EBAF4C1005A5CDB /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0BC23C1EBAF431005A5CDB /* FLAnimatedImage.framework */; };
-		FCC6D1391EB3912D0065F944 /* libSDWebImage iOS static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC6D0D01EB38D2F0065F944 /* libSDWebImage iOS static.a */; };
+		FCC6D1391EB3912D0065F944 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC6D0D01EB38D2F0065F944 /* libSDWebImage.a */; };
 		FCFB253F1EA5562700F59778 /* FFFastImageSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFB25381EA5562700F59778 /* FFFastImageSource.m */; };
 		FCFB25401EA5562700F59778 /* FFFastImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFB253A1EA5562700F59778 /* FFFastImageView.m */; };
 		FCFB25411EA5562700F59778 /* FFFastImageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFB253C1EA5562700F59778 /* FFFastImageViewManager.m */; };
@@ -16,6 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E65905F023A5415D005298C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC6D0C61EB38D2F0065F944 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 80B6DFEE2142B71600BCB334;
+			remoteInfo = SDWebImageMapKit;
+		};
 		FC0BC23B1EBAF431005A5CDB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FC0BC2371EBAF431005A5CDB /* FLAnimatedImage.xcodeproj */;
@@ -30,40 +38,12 @@
 			remoteGlobalIDString = 53761325155AD0D5005750A4;
 			remoteInfo = "SDWebImage iOS static";
 		};
-		FCC6D0D11EB38D2F0065F944 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCC6D0C61EB38D2F0065F944 /* SDWebImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4314D1991D0E0E3B004B36C9;
-			remoteInfo = "SDWebImage watchOS static";
-		};
 		FCC6D0D31EB38D2F0065F944 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FCC6D0C61EB38D2F0065F944 /* SDWebImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4A2CADFF1AB4BB5300B6BC39;
 			remoteInfo = "SDWebImage iOS";
-		};
-		FCC6D0D51EB38D2F0065F944 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCC6D0C61EB38D2F0065F944 /* SDWebImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 00733A4C1BC487C000A5A117;
-			remoteInfo = "SDWebImage tvOS";
-		};
-		FCC6D0D71EB38D2F0065F944 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCC6D0C61EB38D2F0065F944 /* SDWebImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 431BB7031D06D2C1006A3455;
-			remoteInfo = "SDWebImage watchOS";
-		};
-		FCC6D0D91EB38D2F0065F944 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCC6D0C61EB38D2F0065F944 /* SDWebImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4397D2F21D0DDD8C00BB2784;
-			remoteInfo = "SDWebImage OSX";
 		};
 		FCC6D1281EB3908E0065F944 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -88,6 +68,8 @@
 
 /* Begin PBXFileReference section */
 		A287971D1DE0C0A60081BDFA /* libFastImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFastImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65905EB23A5415D005298C2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E65905EC23A5415D005298C2 /* BlurHashDecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurHashDecode.swift; sourceTree = "<group>"; };
 		FC0BC2371EBAF431005A5CDB /* FLAnimatedImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FLAnimatedImage.xcodeproj; path = Vendor/SDWebImage/Vendors/FLAnimatedImage/FLAnimatedImage.xcodeproj; sourceTree = "<group>"; };
 		FCC6D0C61EB38D2F0065F944 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = Vendor/SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
 		FCFB25371EA5562700F59778 /* FFFastImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFastImageSource.h; sourceTree = "<group>"; };
@@ -106,7 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0BC2421EBAF4C1005A5CDB /* FLAnimatedImage.framework in Frameworks */,
-				FCC6D1391EB3912D0065F944 /* libSDWebImage iOS static.a in Frameworks */,
+				FCC6D1391EB3912D0065F944 /* libSDWebImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +121,15 @@
 			name = Vendor;
 			sourceTree = "<group>";
 		};
+		E65905EA23A5415D005298C2 /* BlurHash */ = {
+			isa = PBXGroup;
+			children = (
+				E65905EB23A5415D005298C2 /* LICENSE */,
+				E65905EC23A5415D005298C2 /* BlurHashDecode.swift */,
+			);
+			path = BlurHash;
+			sourceTree = "<group>";
+		};
 		FC0BC2381EBAF431005A5CDB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,12 +141,9 @@
 		FCC6D0C71EB38D2F0065F944 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCC6D0D01EB38D2F0065F944 /* libSDWebImage iOS static.a */,
-				FCC6D0D21EB38D2F0065F944 /* libSDWebImage watchOS static.a */,
+				FCC6D0D01EB38D2F0065F944 /* libSDWebImage.a */,
 				FCC6D0D41EB38D2F0065F944 /* SDWebImage.framework */,
-				FCC6D0D61EB38D2F0065F944 /* SDWebImage.framework */,
-				FCC6D0D81EB38D2F0065F944 /* SDWebImage.framework */,
-				FCC6D0DA1EB38D2F0065F944 /* SDWebImage.framework */,
+				E65905F123A5415D005298C2 /* SDWebImageMapKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +151,7 @@
 		FCFB25361EA5562700F59778 /* FastImage */ = {
 			isa = PBXGroup;
 			children = (
+				E65905EA23A5415D005298C2 /* BlurHash */,
 				FCFB25371EA5562700F59778 /* FFFastImageSource.h */,
 				FCFB25381EA5562700F59778 /* FFFastImageSource.m */,
 				FCFB25391EA5562700F59778 /* FFFastImageView.h */,
@@ -216,6 +205,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = A28797141DE0C0A60081BDFA;
@@ -239,6 +229,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		E65905F123A5415D005298C2 /* SDWebImageMapKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImageMapKit.framework;
+			remoteRef = E65905F023A5415D005298C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		FC0BC23C1EBAF431005A5CDB /* FLAnimatedImage.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -246,18 +243,11 @@
 			remoteRef = FC0BC23B1EBAF431005A5CDB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FCC6D0D01EB38D2F0065F944 /* libSDWebImage iOS static.a */ = {
+		FCC6D0D01EB38D2F0065F944 /* libSDWebImage.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libSDWebImage iOS static.a";
+			path = libSDWebImage.a;
 			remoteRef = FCC6D0CF1EB38D2F0065F944 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FCC6D0D21EB38D2F0065F944 /* libSDWebImage watchOS static.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libSDWebImage watchOS static.a";
-			remoteRef = FCC6D0D11EB38D2F0065F944 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		FCC6D0D41EB38D2F0065F944 /* SDWebImage.framework */ = {
@@ -265,27 +255,6 @@
 			fileType = wrapper.framework;
 			path = SDWebImage.framework;
 			remoteRef = FCC6D0D31EB38D2F0065F944 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FCC6D0D61EB38D2F0065F944 /* SDWebImage.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SDWebImage.framework;
-			remoteRef = FCC6D0D51EB38D2F0065F944 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FCC6D0D81EB38D2F0065F944 /* SDWebImage.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SDWebImage.framework;
-			remoteRef = FCC6D0D71EB38D2F0065F944 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FCC6D0DA1EB38D2F0065F944 /* SDWebImage.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SDWebImage.framework;
-			remoteRef = FCC6D0D91EB38D2F0065F944 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -298,6 +267,7 @@
 				FCFB25411EA5562700F59778 /* FFFastImageViewManager.m in Sources */,
 				FCFB25421EA5562700F59778 /* RCTConvert+FFFastImage.m in Sources */,
 				FCFB25401EA5562700F59778 /* FFFastImageView.m in Sources */,
+				E65905F223A5415D005298C2 /* BlurHashDecode.swift in Sources */,
 				FCFB253F1EA5562700F59778 /* FFFastImageSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,26 +370,32 @@
 		A28797271DE0C0A60081BDFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/Vendor/SDWebImage",
 					"$(SRCROOT)/Vendor/SDWebImage/Vendors/FLAnimatedImage/FLAnimatedImage",
 				);
+				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		A28797281DE0C0A60081BDFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/Vendor/SDWebImage",
 					"$(SRCROOT)/Vendor/SDWebImage/Vendors/FLAnimatedImage/FLAnimatedImage",
 				);
+				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
