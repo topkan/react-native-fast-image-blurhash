@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBottomTabNavigator } from 'react-navigation-tabs'
-import { TabNavigator, TabBarBottom } from 'react-navigation'
+import { createAppContainer, TabNavigator, TabBarBottom } from 'react-navigation'
 import FastImageExamples from './fastImage/FastImageExamples'
 import FastImageGrid from './fastImage/FastImageGrid'
 import DefaultImageGrid from './fastImage/DefaultImageGrid'

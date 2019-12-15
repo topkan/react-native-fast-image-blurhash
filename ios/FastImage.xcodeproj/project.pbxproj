@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E65905F223A5415D005298C2 /* BlurHashDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65905EC23A5415D005298C2 /* BlurHashDecode.swift */; };
-		FC0BC2421EBAF4C1005A5CDB /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0BC23C1EBAF431005A5CDB /* FLAnimatedImage.framework */; };
+		E6540C0A23A6931C00C7D9A0 /* NSString+BlurHash.m in Sources */ = {isa = PBXBuildFile; fileRef = E6540C0923A6931C00C7D9A0 /* NSString+BlurHash.m */; };
+		E6540C0C23A6966E00C7D9A0 /* UIImage+BlurHash.m in Sources */ = {isa = PBXBuildFile; fileRef = E6540C0B23A6966E00C7D9A0 /* UIImage+BlurHash.m */; };
 		FCC6D1391EB3912D0065F944 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC6D0D01EB38D2F0065F944 /* libSDWebImage.a */; };
 		FCFB253F1EA5562700F59778 /* FFFastImageSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFB25381EA5562700F59778 /* FFFastImageSource.m */; };
 		FCFB25401EA5562700F59778 /* FFFastImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFB253A1EA5562700F59778 /* FFFastImageView.m */; };
@@ -23,13 +23,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 80B6DFEE2142B71600BCB334;
 			remoteInfo = SDWebImageMapKit;
-		};
-		FC0BC23B1EBAF431005A5CDB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC0BC2371EBAF431005A5CDB /* FLAnimatedImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 92C9BC0C1B199DC500D79B06;
-			remoteInfo = FLAnimatedImage;
 		};
 		FCC6D0CF1EB38D2F0065F944 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -68,9 +61,11 @@
 
 /* Begin PBXFileReference section */
 		A287971D1DE0C0A60081BDFA /* libFastImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFastImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6540C0423A692C200C7D9A0 /* NSString+BlurHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BlurHash.h"; sourceTree = "<group>"; };
+		E6540C0823A692C200C7D9A0 /* UIImage+BlurHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BlurHash.h"; sourceTree = "<group>"; };
+		E6540C0923A6931C00C7D9A0 /* NSString+BlurHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+BlurHash.m"; sourceTree = "<group>"; };
+		E6540C0B23A6966E00C7D9A0 /* UIImage+BlurHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BlurHash.m"; sourceTree = "<group>"; };
 		E65905EB23A5415D005298C2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E65905EC23A5415D005298C2 /* BlurHashDecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurHashDecode.swift; sourceTree = "<group>"; };
-		FC0BC2371EBAF431005A5CDB /* FLAnimatedImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FLAnimatedImage.xcodeproj; path = Vendor/SDWebImage/Vendors/FLAnimatedImage/FLAnimatedImage.xcodeproj; sourceTree = "<group>"; };
 		FCC6D0C61EB38D2F0065F944 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = Vendor/SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
 		FCFB25371EA5562700F59778 /* FFFastImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFastImageSource.h; sourceTree = "<group>"; };
 		FCFB25381EA5562700F59778 /* FFFastImageSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFastImageSource.m; sourceTree = "<group>"; };
@@ -87,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0BC2421EBAF4C1005A5CDB /* FLAnimatedImage.framework in Frameworks */,
 				FCC6D1391EB3912D0065F944 /* libSDWebImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,7 +109,6 @@
 		A28797331DE0CA420081BDFA /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				FC0BC2371EBAF431005A5CDB /* FLAnimatedImage.xcodeproj */,
 				FCC6D0C61EB38D2F0065F944 /* SDWebImage.xcodeproj */,
 			);
 			name = Vendor;
@@ -124,18 +117,13 @@
 		E65905EA23A5415D005298C2 /* BlurHash */ = {
 			isa = PBXGroup;
 			children = (
+				E6540C0423A692C200C7D9A0 /* NSString+BlurHash.h */,
+				E6540C0923A6931C00C7D9A0 /* NSString+BlurHash.m */,
+				E6540C0823A692C200C7D9A0 /* UIImage+BlurHash.h */,
+				E6540C0B23A6966E00C7D9A0 /* UIImage+BlurHash.m */,
 				E65905EB23A5415D005298C2 /* LICENSE */,
-				E65905EC23A5415D005298C2 /* BlurHashDecode.swift */,
 			);
 			path = BlurHash;
-			sourceTree = "<group>";
-		};
-		FC0BC2381EBAF431005A5CDB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FC0BC23C1EBAF431005A5CDB /* FLAnimatedImage.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FCC6D0C71EB38D2F0065F944 /* Products */ = {
@@ -213,10 +201,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FC0BC2381EBAF431005A5CDB /* Products */;
-					ProjectRef = FC0BC2371EBAF431005A5CDB /* FLAnimatedImage.xcodeproj */;
-				},
-				{
 					ProductGroup = FCC6D0C71EB38D2F0065F944 /* Products */;
 					ProjectRef = FCC6D0C61EB38D2F0065F944 /* SDWebImage.xcodeproj */;
 				},
@@ -234,13 +218,6 @@
 			fileType = wrapper.framework;
 			path = SDWebImageMapKit.framework;
 			remoteRef = E65905F023A5415D005298C2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FC0BC23C1EBAF431005A5CDB /* FLAnimatedImage.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FLAnimatedImage.framework;
-			remoteRef = FC0BC23B1EBAF431005A5CDB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		FCC6D0D01EB38D2F0065F944 /* libSDWebImage.a */ = {
@@ -265,9 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCFB25411EA5562700F59778 /* FFFastImageViewManager.m in Sources */,
+				E6540C0C23A6966E00C7D9A0 /* UIImage+BlurHash.m in Sources */,
 				FCFB25421EA5562700F59778 /* RCTConvert+FFFastImage.m in Sources */,
 				FCFB25401EA5562700F59778 /* FFFastImageView.m in Sources */,
-				E65905F223A5415D005298C2 /* BlurHashDecode.swift in Sources */,
+				E6540C0A23A6931C00C7D9A0 /* NSString+BlurHash.m in Sources */,
 				FCFB253F1EA5562700F59778 /* FFFastImageSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

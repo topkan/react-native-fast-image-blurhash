@@ -1,8 +1,9 @@
 #import <UIKit/UIKit.h>
 
-#import "FFFastImageView.h"
 #import <SDWebImage/SDImageCache.h>
-#import <FastImage-Swift.h>
+
+#import "FFFastImageView.h"
+#import "UIImage+BlurHash.h"
 
 @implementation FFFastImageView {
     BOOL hasSentOnLoadStart;
@@ -60,12 +61,12 @@
         }
 
         UIImage * placeholderImage = nil;
-        if (_source.defaultUrl {
+        if (_source.defaultUrl) {
             placeholderImage = [[SDImageCache sharedImageCache]imageFromCacheForKey:_source.defaultUrl];
         } else if (_source.blurHash) {
             // See https://stackoverflow.com/questions/36570564/is-it-possible-to-call-swift-convenience-initializer-in-objective-c/55515137
             // https://github.com/Raincal/blurhash/blob/master/ios/Classes/SwiftBlurhashPlugin.swift
-            placeholderImage = [[UIImage alloc] initWithBlurHash: self.blurHash size: self.bounds.size punch punch: self.punch];
+            placeholderImage = [[UIImage alloc] initWithBlurHash: _source.blurHash size: self.bounds.size punch: 1.0];
         }
 
         // Load the new source.
